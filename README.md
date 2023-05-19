@@ -11,3 +11,11 @@ data.
 2. Data Ingestion
 3. Validation and Cleaning
 4. Data warehousing
+
+### schema
+
+```
++--------------+     +-------------+     +------------+     +--------------------+
++ HTTP Request + --> + JSON to CSV + --> + Clean data + --> + Export to Database +
++--------------+     +-------------+     +------------+     +--------------------+
+```
